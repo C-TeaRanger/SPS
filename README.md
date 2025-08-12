@@ -42,6 +42,8 @@ python evaluation.py
 
 This will evaluate all the models in the model_path="./model_ckpt/cream_models/". If you need to evaluate one model, just change model_path in evaluation.py.
 
+We provide the pre-trained models used for evaluation in the paper, but the model size exceeds GitHub's 25MB limit and cannot be uploaded. If needed, please contact us via email at xyemrsnon@gmail.com.
+
 # Citation
 If you find this work useful or interesting, please consider citing it.
 
