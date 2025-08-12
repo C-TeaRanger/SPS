@@ -25,20 +25,20 @@ We follow NCR [https://github.com/XLearning-SCU/2021-NeurIPS-NCR/](https://githu
           |--f30k_precomp_vocab.json
           
 # Training
-python run.py --data_name=f30k_precomp --noise_ratio=0.2 --num_epochs=40
+```python run.py --data_name=f30k_precomp --noise_ratio=0.2 --num_epochs=40```
 
 You can change --noise_ratio=0.2 to 0.4 | 0.6 | 0.8 to conduct more experiments on Flickr30K.
 
-python run.py --data_name=cc152k_precomp --num_epochs=40
+```python run.py --data_name=cc152k_precomp --num_epochs=40```
 
 As CC152K is a real-world dataset, there is no need to set --noise_ratio.
 
-python run.py --data_name=coco_precomp --noise_ratio=0.2 --num_epochs=20
+```python run.py --data_name=coco_precomp --noise_ratio=0.2 --num_epochs=20```
 
 You can change --noise_ratio=0.2 to 0.4 | 0.6 | 0.8 to conduct more experiments on MS-COCO.
 
 # Evaluating
-python evaluation.py
+```python evaluation.py```
 
 This will evaluate all the models in the model_path="./model_ckpt/cream_models/". If you need to evaluate one model, just change model_path in evaluation.py.
 
