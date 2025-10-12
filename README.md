@@ -47,4 +47,18 @@ We provide the pre-trained models used for evaluation in the paper, but the mode
 # Citation
 If you find this work useful or interesting, please consider citing it.
 
-The reference link is still in preparation.
+@inproceedings{ijcai2025p231,
+  title     = {Seeking Proxy Point via Stable Feature Space for Noisy Correspondence Learning},
+  author    = {Xie, Yucheng and Cai, Songyue and Tong, Tao and Hu, Ping and Zhu, Xiaofeng},
+  booktitle = {Proceedings of the Thirty-Fourth International Joint Conference on
+               Artificial Intelligence, {IJCAI-25}},
+  publisher = {International Joint Conferences on Artificial Intelligence Organization},
+  editor    = {James Kwok},
+  pages     = {2072--2080},
+  year      = {2025},
+  month     = {8},
+  note      = {Main Track},
+  doi       = {10.24963/ijcai.2025/231},
+  url       = {https://doi.org/10.24963/ijcai.2025/231},
+}
+
