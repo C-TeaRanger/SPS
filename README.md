@@ -79,8 +79,10 @@ python evaluation.py
 * To evaluate a specific model, please modify the `model_path` variable in `evaluation.py`.
 
 ### Pre-trained Models
-We provide the pre-trained models used for evaluation in the paper. However, due to GitHub's file size limit, we cannot upload them directly here.
-> If you need the pre-trained models, please contact us via email at: **xyemrsnon@gmail.com**
+
+We provide the pre-trained models used for the paper experiments. You can download them from the following link:
+
+- **Google Drive:** [Download Link](https://drive.google.com/drive/folders/1SuudNBWTCcetkYFAW9Ha84tX8SCF8zZF?usp=sharing)
 
 ## 📝 Citation
 
